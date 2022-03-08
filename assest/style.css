@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@200;300&family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@200;300&family=Poppins:wght@300;500;600&display=swap');
+
+
+/* *********************header style********************* */
+html{
+     font-size: 16px;
+}
+header{
+     display:flex;
+     justify-content: space-between;
+     margin: 2.5rem  7.5rem;
+}
+.logo__name{
+     display: flex;
+     text-decoration: none;
+
+}
+
+.payna{
+     font-family: Poppins;
+     font-weight: 600;
+     font-size: 1.75rem;
+     line-height:2.6rem;
+     color: #070F18;
+     padding-left: 0.75rem;
+}
+
+.nave__menu{
+     display: flex;
+     padding-top:0.75rem;
+     margin-left: 2rem;
+}
+
+.nave__menu__item{
+     font-family: Poppins;
+     font-size: 1rem;
+     line-height: 1.5rem;
+     text-align: center;
+     color: #070F18;
+     padding: 0px 1.8rem;
+     
+}
+.sing__in__btn{
+     width: 9.5rem;
+     height: 3rem;
+     font-family: Poppins;
+     font-size: 1rem;
+     line-height: 1.5rem;
+     text-align: center;
+     color: #070F18;
+     background: #F5F6FB;
+     border-radius: 3rem;
+     }
+     /* ******tablet**** */
+ @media (max-width:768px){
+      html{
+           font-size:14px;
+      }
+     .nave__menu{
+          display: none;
+     }
+     header{
+          margin: 2.5rem 2.5rem;
+     }
+    .girl_img{
+          display:none;
+     }
+     .first__section{
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+     }
+     .second__section{
+          flex-direction: column;
+          align-items: center;
+          /* align-content: space-between; */
+     }
+     .second__section___text{
+          margin-bottom:2rem;
+     }
+     .Fourth__section__card{
+        width:17.4rem;
+     }
+     .Fifth__section{
+          flex-wrap:wrap;
+     }
+     .Fifth__section__red__text{
+          text-align: center;
+     }
+}
+/* *****mobile**** */
+ @media (max-width:426px){
+     html{
+          font-size:12px;
+     }
+     .nave__menu{
+          display: none;
+     }
+     header{
+          margin: 2.5rem  1.5rem;
+     }
+     .sing__in__btn{
+          display: none;
+     }
+     .first__section{
+          text-align: justify;
+     }
+     .second__section{
+          margin:3rem auto 5rem auto;
+     } 
+     .Fifth__section{
+          text-align: center;
+     }
+     .Fifth__section__input__btn{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     .Fifth__section__btn{
+          margin-top: 2rem;
+          margin-right: -4rem;
+     }
+ }
+/* **************************first__section************************* */
+  .first__section{
+     display: flex;
+     justify-content: space-around;
+  }
+.first__section__header{
+     font-family: Poppins;
+     font-weight: bold;
+     font-size: 3.5rem;;
+     line-height: 5rem;
+     text-align: start;
+     max-width: 28rem;
+}
+.first__section__text{
+     font-family: Poppins;
+     font-size: 1rem;
+     line-height: 200% ;
+     color: #575455;
+     max-width:27rem;
+}
+.primary__btn{
+     width: 11.25rem;
+     height: 3rem;
+     background: #1F7CFF;
+     border-radius: 3rem;
+     font-family: Poppins;
+     font-weight: 600;
+     font-size: 1rem;
+     line-height: 1.5rem;
+     text-align: center;
+     color: #FFFFFF;
+     margin-top:2rem ;
+     }
+     .girl_img{
+          border-radius:3rem;
+     }
+     /* *****************************second__section***************************** */
+     .second__section{
+          display:flex;
+          flex-wrap:wrap;
+          justify-content:space-around;
+          margin: 4rem auto 8rem auto;
+     }
+     .second__section__icons{
+          /* flex-basis: 13%; */
+          display:flex;
+          flex-wrap:wrap;
+          justify-content:space-around;
+          flex-basis: 55%;
+     }
+     .second__section__icon {
+          flex-basis: 15%;
+     }
+
+     .second__section___text{
+          font-family: Poppins;
+          font-weight: 600;
+          font-size: 1rem;
+          line-height:1.5rem;
+          flex-basis: 15%;
+     }
+      /* *****************************Third__section***************************** */
+      .Third__section{
+           display: flex;
+           flex-direction: column;
+           justify-content:center;
+           align-items: center;
+           /* padding: 0rem 35rem; */
+      }
+      .red__text{
+          font-family: Poppins;
+          font-weight: bold;
+          font-size: 1rem;
+          line-height:1.5rem;
+          text-align: center;  
+          color: #F75C4E;
+      }
+      .bold__text{
+          font-family: Poppins;
+          font-weight: bold;
+          font-size: 2.25rem;
+          line-height:3.5rem;
+          text-align: center;
+          color: #000000;
+          
+      }
+      .Third__section__text{
+          font-family: Poppins;
+          font-size:1rem;
+          line-height: 200%;
+          text-align:center;
+          color: #575455;
+          max-width: 24rem;
+      }
+      /* **************************Fourth__section************************* */
+      .Fourth__section{
+           display: flex;
+           flex-direction: row;
+           justify-content:space-between;
+           flex-wrap: wrap;
+           margin: 4rem 10rem;
+      }
+      .Fourth__section__card{
+           margin-top: 3rem;
+           display:flex;
+           flex-direction: row;
+           max-width:18.75rem;
+           height:6.6rem;
+      }
+      .Fourth__section__card__texts{
+          margin-left:1rem;
+     }
+      .Fourth__section__card__header{
+          font-family: Poppins;
+          font-weight: 600;
+          font-size: 1.25rem;
+          line-height: 1.8rem;
+          color: #070F18;
+      }
+      .Fourth__section__card__text{
+          color: #575455;
+          font-family: Poppins;
+          font-size:1rem;
+          line-height:2rem ;
+     }
+        /* **************************Fifth__section************************* */
+        .Fifth__section{
+             display:flex;
+             flex-direction: row;
+             justify-content:space-between;
+             margin: 4rem 10rem;
+
+        }
+        .Fifth__section__texts{
+             margin-top: 6rem;
+             margin-left: 4rem;
+             
+        }
+        .Fifth__section__red__text{
+          font-family: Poppins;
+          font-weight: bold;
+          font-size: 1rem;
+          line-height:1.5rem;
+          color: #F75C4E;
+        }
+        .Fifth__section__header{
+          font-family: Poppins;
+          font-weight: bold;
+          font-size:2.25rem;
+          line-height: 3.3rem;
+          color: #000000;
+        }
+        .Fifth__section__text{
+          font-family: Poppins;
+          font-size: 1rem;
+          line-height:  200%;
+          color: #575455;
+        }
+        .Fifth__section__email__input{
+          font-family: Poppins;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          color: #575455;
+          width: 18.5rem;
+          height: 3rem;
+          background: #F5F6FB; 
+          border-radius: 3rem;
+          padding-left:1.5rem;
+        }
+        input::placeholder{ 
+          font-family: Poppins;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          color: #575455;
+          /* padding-left: 1.5rem; */
+      }
+      .Fifth__section__btn{
+          width: 11.25rem;
+          height:3rem;
+          background: #1F7CFF;
+          border-radius: 3rem;
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          text-align: center;
+          color: #FFFFFF;
+          margin-left: -3rem;
+      }
+      .Fifth__section__input__btn{
+           margin-top: 2.5rem;
+      }
+
+     .Fifth__section__video{
+          width: 40rem;
+          height: 28rem; 
+          border-radius:3.5rem;
+     }
+
+     footer{
+          text-align: center;
+     }
+       
+
+
